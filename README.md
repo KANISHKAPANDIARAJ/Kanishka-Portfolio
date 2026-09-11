@@ -2,6 +2,12 @@
 
 > Personal portfolio website showcasing my projects, technical skills, experience, certifications, and journey in Artificial Intelligence and Data Science.
 
+## Live Portfolio
+
+Live Website: https://kanishka-portfolio.rajkanish41.workers.dev
+
+The portfolio is deployed using Cloudflare Pages with GitHub integration and is automatically updated whenever changes are pushed to the main branch.
+
 ##  Portfolio
 
 **Kanishka P.**
@@ -308,6 +314,26 @@ Kanishka-Portfolio/
         ├── news-summariser.mp4
         └── weather-dashboard.mp4
 ```
+## Deployment
+
+The portfolio is deployed using Cloudflare Pages.
+
+Deployment Architecture
+```text
+Local Development
+       │
+       ▼
+   Git Repository
+       │
+       ▼
+     GitHub
+       │
+       ▼
+ Cloudflare Pages
+       │
+       ▼
+ Production Website
+```
 
 ---
 
@@ -316,7 +342,7 @@ Kanishka-Portfolio/
 Clone the repository:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/KANISHKAPANDIARAJ/Kanishka-Portfolio
 ```
 
 Navigate into the project:
